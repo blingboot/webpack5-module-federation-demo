@@ -1,8 +1,6 @@
-const myButton = () => import('./myButton')
-const myInput = () => import('./myInput')
+import Vue from 'vue'
+import App from './App.vue'
 
-export {
-  myButton,
-  myInput
-}
-
+new Vue({
+  render: h => h(App)
+}).$mount('#app')

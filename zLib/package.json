@@ -1,17 +1,19 @@
 {
-    "name": "zlib",
-    "version": "1.0.0",
-    "description": "",
-    "main": "webpack.config.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "dev": "npx webpack"
-    },
-    "keywords": [],
-    "author": "zbl",
-    "license": "ISC",
-    "devDependencies": {
-        "webpack": "git://github.com/webpack/webpack.git#dev-1",
-        "webpack-cli": "^3.3.11"
-    }
+  "name": "zlib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx webpack-dev-server",
+    "build": "npx webpack"
+  },
+  "keywords": [],
+  "author": "zbl",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "git://github.com/webpack/webpack.git#dev-1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
 }

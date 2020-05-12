@@ -1,8 +1,8 @@
 (window["webpackJsonpzcomp"] = window["webpackJsonpzcomp"] || []).push([["src_myButton_vue"],{
 
-/***/ "./node_modules/_css-loader@3.5.2@css-loader/dist/cjs.js!./node_modules/_vue-loader@15.8.3@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!./node_modules/_vue-loader@15.8.3@vue-loader/lib/index.js??vue-loader-options!./src/myButton.vue?vue&type=style&index=0&id=1c56b9d7&lang=less&scoped=true&":
+/***/ "./node_modules/_css-loader@3.5.3@css-loader/dist/cjs.js!./node_modules/_vue-loader@15.8.3@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!./node_modules/_vue-loader@15.8.3@vue-loader/lib/index.js??vue-loader-options!./src/myButton.vue?vue&type=style&index=0&id=1c56b9d7&lang=less&scoped=true&":
 /*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/_css-loader@3.5.2@css-loader/dist/cjs.js!./node_modules/_vue-loader@15.8.3@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!./node_modules/_vue-loader@15.8.3@vue-loader/lib/index.js??vue-loader-options!./src/myButton.vue?vue&type=style&index=0&id=1c56b9d7&lang=less&scoped=true& ***!
+  !*** ./node_modules/_css-loader@3.5.3@css-loader/dist/cjs.js!./node_modules/_vue-loader@15.8.3@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!./node_modules/_vue-loader@15.8.3@vue-loader/lib/index.js??vue-loader-options!./src/myButton.vue?vue&type=style&index=0&id=1c56b9d7&lang=less&scoped=true& ***!
   \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! unknown exports (runtime-defined) */
 /*! exports [maybe provided (runtime-defined)] [maybe used (runtime-defined)] */
@@ -10,27 +10,27 @@
 /***/ ((module, exports, __webpack_require__) => {
 
 // Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/_css-loader@3.5.2@css-loader/dist/runtime/api.js */ "./node_modules/_css-loader@3.5.2@css-loader/dist/runtime/api.js");
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/_css-loader@3.5.3@css-loader/dist/runtime/api.js */ "./node_modules/_css-loader@3.5.3@css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.id, ".my-button[data-v-1c56b9d7] {\n  color: red;\n}\n", ""]);
+exports.push([module.id, ".my-button[data-v-1c56b9d7] {\n  color: red;\n}\n.my-button button[data-v-1c56b9d7] {\n  font-size: 20px;\n  color: blue;\n}\n", ""]);
 // Exports
 module.exports = exports;
 
 
 /***/ }),
 
-/***/ "./node_modules/_style-loader@1.1.4@style-loader/dist/cjs.js!./node_modules/_css-loader@3.5.2@css-loader/dist/cjs.js!./node_modules/_vue-loader@15.8.3@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!./node_modules/_vue-loader@15.8.3@vue-loader/lib/index.js??vue-loader-options!./src/myButton.vue?vue&type=style&index=0&id=1c56b9d7&lang=less&scoped=true&":
+/***/ "./node_modules/_style-loader@1.2.1@style-loader/dist/cjs.js!./node_modules/_css-loader@3.5.3@css-loader/dist/cjs.js!./node_modules/_vue-loader@15.8.3@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!./node_modules/_vue-loader@15.8.3@vue-loader/lib/index.js??vue-loader-options!./src/myButton.vue?vue&type=style&index=0&id=1c56b9d7&lang=less&scoped=true&":
 /*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/_style-loader@1.1.4@style-loader/dist/cjs.js!./node_modules/_css-loader@3.5.2@css-loader/dist/cjs.js!./node_modules/_vue-loader@15.8.3@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!./node_modules/_vue-loader@15.8.3@vue-loader/lib/index.js??vue-loader-options!./src/myButton.vue?vue&type=style&index=0&id=1c56b9d7&lang=less&scoped=true& ***!
+  !*** ./node_modules/_style-loader@1.2.1@style-loader/dist/cjs.js!./node_modules/_css-loader@3.5.3@css-loader/dist/cjs.js!./node_modules/_vue-loader@15.8.3@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!./node_modules/_vue-loader@15.8.3@vue-loader/lib/index.js??vue-loader-options!./src/myButton.vue?vue&type=style&index=0&id=1c56b9d7&lang=less&scoped=true& ***!
   \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! unknown exports (runtime-defined) */
 /*! exports [maybe provided (runtime-defined)] [maybe used (runtime-defined)] */
 /*! runtime requirements: module, __webpack_require__, module.id */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-var api = __webpack_require__(/*! !../node_modules/_style-loader@1.1.4@style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/_style-loader@1.1.4@style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !!../node_modules/_css-loader@3.5.2@css-loader/dist/cjs.js!../node_modules/_vue-loader@15.8.3@vue-loader/lib/loaders/stylePostLoader.js!../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!../node_modules/_vue-loader@15.8.3@vue-loader/lib/index.js??vue-loader-options!./myButton.vue?vue&type=style&index=0&id=1c56b9d7&lang=less&scoped=true& */ "./node_modules/_css-loader@3.5.2@css-loader/dist/cjs.js!./node_modules/_vue-loader@15.8.3@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!./node_modules/_vue-loader@15.8.3@vue-loader/lib/index.js??vue-loader-options!./src/myButton.vue?vue&type=style&index=0&id=1c56b9d7&lang=less&scoped=true&");
+var api = __webpack_require__(/*! !../node_modules/_style-loader@1.2.1@style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/_style-loader@1.2.1@style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !!../node_modules/_css-loader@3.5.3@css-loader/dist/cjs.js!../node_modules/_vue-loader@15.8.3@vue-loader/lib/loaders/stylePostLoader.js!../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!../node_modules/_vue-loader@15.8.3@vue-loader/lib/index.js??vue-loader-options!./myButton.vue?vue&type=style&index=0&id=1c56b9d7&lang=less&scoped=true& */ "./node_modules/_css-loader@3.5.3@css-loader/dist/cjs.js!./node_modules/_vue-loader@15.8.3@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!./node_modules/_vue-loader@15.8.3@vue-loader/lib/index.js??vue-loader-options!./src/myButton.vue?vue&type=style&index=0&id=1c56b9d7&lang=less&scoped=true&");
 
             content = content.__esModule ? content.default : content;
 
@@ -45,11 +45,9 @@ options.singleton = false;
 
 var update = api(content, options);
 
-var exported = content.locals ? content.locals : {};
 
 
-
-module.exports = exported;
+module.exports = content.locals || {};
 
 /***/ }),
 
@@ -58,7 +56,7 @@ module.exports = exported;
   !*** ./src/myButton.vue ***!
   \**************************/
 /*! namespace exports */
-/*! export default [provided] [maybe used (runtime-defined)] [usage prevents renaming] */
+/*! export default [provided] [used] [usage prevents renaming] */
 /*! other exports [not provided] [maybe used (runtime-defined)] */
 /*! runtime requirements: __webpack_require__, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
@@ -119,6 +117,8 @@ component.options.__file = "src/myButton.vue"
 //
 //
 
+// import { timeDelayFn } from 'zLib/utils'
+
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: 'my-button',
   mixins: [],
@@ -135,7 +135,11 @@ component.options.__file = "src/myButton.vue"
     return {}
   },
   created() {},
-  mounted() {},
+  mounted() {
+    // timeDelayFn(() => {
+    //   console.log(666)
+    // }, 2000)
+  },
   methods: {
     handleClick() {
       alert(this.alertValue)
@@ -158,8 +162,8 @@ component.options.__file = "src/myButton.vue"
 /***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
 
 "use strict";
-/* harmony import */ var _node_modules_style_loader_1_1_4_style_loader_dist_cjs_js_node_modules_css_loader_3_5_2_css_loader_dist_cjs_js_node_modules_vue_loader_15_8_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_less_loader_5_0_0_less_loader_dist_cjs_js_node_modules_vue_loader_15_8_3_vue_loader_lib_index_js_vue_loader_options_myButton_vue_vue_type_style_index_0_id_1c56b9d7_lang_less_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../node_modules/_style-loader@1.1.4@style-loader/dist/cjs.js!../node_modules/_css-loader@3.5.2@css-loader/dist/cjs.js!../node_modules/_vue-loader@15.8.3@vue-loader/lib/loaders/stylePostLoader.js!../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!../node_modules/_vue-loader@15.8.3@vue-loader/lib/index.js??vue-loader-options!./myButton.vue?vue&type=style&index=0&id=1c56b9d7&lang=less&scoped=true& */ "./node_modules/_style-loader@1.1.4@style-loader/dist/cjs.js!./node_modules/_css-loader@3.5.2@css-loader/dist/cjs.js!./node_modules/_vue-loader@15.8.3@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!./node_modules/_vue-loader@15.8.3@vue-loader/lib/index.js??vue-loader-options!./src/myButton.vue?vue&type=style&index=0&id=1c56b9d7&lang=less&scoped=true&");
-/* harmony import */ var _node_modules_style_loader_1_1_4_style_loader_dist_cjs_js_node_modules_css_loader_3_5_2_css_loader_dist_cjs_js_node_modules_vue_loader_15_8_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_less_loader_5_0_0_less_loader_dist_cjs_js_node_modules_vue_loader_15_8_3_vue_loader_lib_index_js_vue_loader_options_myButton_vue_vue_type_style_index_0_id_1c56b9d7_lang_less_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_1_1_4_style_loader_dist_cjs_js_node_modules_css_loader_3_5_2_css_loader_dist_cjs_js_node_modules_vue_loader_15_8_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_less_loader_5_0_0_less_loader_dist_cjs_js_node_modules_vue_loader_15_8_3_vue_loader_lib_index_js_vue_loader_options_myButton_vue_vue_type_style_index_0_id_1c56b9d7_lang_less_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_style_loader_1_2_1_style_loader_dist_cjs_js_node_modules_css_loader_3_5_3_css_loader_dist_cjs_js_node_modules_vue_loader_15_8_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_less_loader_5_0_0_less_loader_dist_cjs_js_node_modules_vue_loader_15_8_3_vue_loader_lib_index_js_vue_loader_options_myButton_vue_vue_type_style_index_0_id_1c56b9d7_lang_less_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../node_modules/_style-loader@1.2.1@style-loader/dist/cjs.js!../node_modules/_css-loader@3.5.3@css-loader/dist/cjs.js!../node_modules/_vue-loader@15.8.3@vue-loader/lib/loaders/stylePostLoader.js!../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!../node_modules/_vue-loader@15.8.3@vue-loader/lib/index.js??vue-loader-options!./myButton.vue?vue&type=style&index=0&id=1c56b9d7&lang=less&scoped=true& */ "./node_modules/_style-loader@1.2.1@style-loader/dist/cjs.js!./node_modules/_css-loader@3.5.3@css-loader/dist/cjs.js!./node_modules/_vue-loader@15.8.3@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!./node_modules/_vue-loader@15.8.3@vue-loader/lib/index.js??vue-loader-options!./src/myButton.vue?vue&type=style&index=0&id=1c56b9d7&lang=less&scoped=true&");
+/* harmony import */ var _node_modules_style_loader_1_2_1_style_loader_dist_cjs_js_node_modules_css_loader_3_5_3_css_loader_dist_cjs_js_node_modules_vue_loader_15_8_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_less_loader_5_0_0_less_loader_dist_cjs_js_node_modules_vue_loader_15_8_3_vue_loader_lib_index_js_vue_loader_options_myButton_vue_vue_type_style_index_0_id_1c56b9d7_lang_less_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_1_2_1_style_loader_dist_cjs_js_node_modules_css_loader_3_5_3_css_loader_dist_cjs_js_node_modules_vue_loader_15_8_3_vue_loader_lib_loaders_stylePostLoader_js_node_modules_less_loader_5_0_0_less_loader_dist_cjs_js_node_modules_vue_loader_15_8_3_vue_loader_lib_index_js_vue_loader_options_myButton_vue_vue_type_style_index_0_id_1c56b9d7_lang_less_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
  /* unused harmony default export */ var _unused_webpack_default_export = ((/* unused pure expression or super */ null && (mod))); 
 
 /***/ }),

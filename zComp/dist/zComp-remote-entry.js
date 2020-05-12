@@ -1,53 +1,43 @@
+var zComp;zComp =
 /******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
-/*! unknown exports (runtime-defined) */
-/*! exports [maybe provided (runtime-defined)] [unused] */
-/*! runtime requirements: __webpack_require__.e, __webpack_require__, __webpack_require__.* */
-/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
-
-Promise.all(/*! import() */[__webpack_require__.e("vendors-node_modules__css-loader_3_5_3_css-loader_dist_runtime_api_js-node_modules__style-loa-a08313"), __webpack_require__.e("src_main_js")]).then(__webpack_require__.bind(__webpack_require__, /*! ./main */ "./src/main.js"))
-
-/***/ }),
-
-/***/ "webpack/container/reference/zLib":
+/***/ "webpack/container/entry/zCompRemote":
 /*!***********************!*\
-  !*** external "zLib" ***!
+  !*** container entry ***!
   \***********************/
 /*! unknown exports (runtime-defined) */
 /*! exports [maybe provided (runtime-defined)] [maybe used (runtime-defined)] */
-/*! runtime requirements: module */
-/***/ ((module) => {
+/*! runtime requirements: __webpack_require__.d, __webpack_require__.o, __webpack_exports__, __webpack_require__.e, __webpack_require__, __webpack_require__.* */
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-"use strict";
-module.exports = zLib;
-
-/***/ }),
-
-/***/ "webpack/container/remote-overrides/4d7277":
-/*!**********************************!*\
-  !*** remote overrides vue = vue ***!
-  \**********************************/
-/*! unknown exports (runtime-defined) */
-/*! exports [maybe provided (runtime-defined)] [maybe used (runtime-defined)] */
-/*! runtime requirements: module, __webpack_require__.e, __webpack_require__, __webpack_require__.* */
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = (external) => {
-	if(external.override) external.override(Object.assign({
-		"vue": () => {
-			return __webpack_require__.e("webpack_container_overridable_vue_vue-_cd9a").then(() => {
-				return () => __webpack_require__(/*! vue */ "webpack/container/overridable/vue=vue?cd9a")
-			})
-		}
-	}, __webpack_require__.O));
-	return external;
+var moduleMap = {
+	"myButton": () => {
+		return Promise.all([__webpack_require__.e("vendors-node_modules__css-loader_3_5_3_css-loader_dist_runtime_api_js-node_modules__style-loa-a08313"), __webpack_require__.e("src_myButton_vue")]).then(() => () => __webpack_require__(/*! ./src/myButton.vue */ "./src/myButton.vue"));
+	},
+	"EleInput": () => {
+		return Promise.all([__webpack_require__.e("vendors-node_modules__element-ui_2_13_1_element-ui_packages_input_src_input_vue"), __webpack_require__.e("webpack_container_overridable_vue_vue-_1e31")]).then(() => () => __webpack_require__(/*! ./node_modules/element-ui/packages/input/src/input.vue */ "./node_modules/_element-ui@2.13.1@element-ui/packages/input/src/input.vue"));
+	}
 };
+var get = (module) => {
+	return (
+		__webpack_require__.o(moduleMap, module)
+			? moduleMap[module]()
+			: Promise.resolve().then(() => {
+				throw new Error('Module "' + module + '" does not exist in container.');
+			})
+	);
+};
+var override = (override) => {
+	Object.assign(__webpack_require__.O, override);
+};
+
+// This exports getters to disallow modifications
+__webpack_require__.d(exports, {
+	get: () => get,
+	override: () => override
+});
 
 /***/ })
 
@@ -89,29 +79,6 @@ module.exports = (external) => {
 /******/ 				() => module;
 /******/ 			__webpack_require__.d(getter, { a: getter });
 /******/ 			return getter;
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/create fake namespace object */
-/******/ 	(() => {
-/******/ 		// create a fake namespace object
-/******/ 		// mode & 1: value is a module id, require it
-/******/ 		// mode & 2: merge all properties of value into the ns
-/******/ 		// mode & 4: return value when already ns object
-/******/ 		// mode & 8|1: behave like require
-/******/ 		__webpack_require__.t = function(value, mode) {
-/******/ 			if(mode & 1) value = this(value);
-/******/ 			if(mode & 8) return value;
-/******/ 			if((mode & 4) && typeof value === 'object' && value && value.__esModule) return value;
-/******/ 			var ns = Object.create(null);
-/******/ 			__webpack_require__.r(ns);
-/******/ 			var def = {};
-/******/ 			if(mode & 2 && typeof value == 'object' && value) {
-/******/ 				for(const key in value) def[key] = () => value[key];
-/******/ 			}
-/******/ 			def['default'] = () => value;
-/******/ 			__webpack_require__.d(ns, def);
-/******/ 			return ns;
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -182,23 +149,16 @@ module.exports = (external) => {
 /******/ 		__webpack_require__.O = {};
 /******/ 		var installedModules = {};
 /******/ 		var idToNameMapping = {
-/******/ 			"webpack/container/overridable/vue=vue?79d2": "vue",
-/******/ 			"webpack/container/overridable/vue=vue?cd9a": "vue"
+/******/ 			"webpack/container/overridable/vue=vue?1e31": "vue"
 /******/ 		};
 /******/ 		// no overridables in initial chunks
 /******/ 		var chunkMapping = {
-/******/ 			"src_main_js": [
-/******/ 				"webpack/container/overridable/vue=vue?79d2"
-/******/ 			],
-/******/ 			"webpack_container_overridable_vue_vue-_cd9a": [
-/******/ 				"webpack/container/overridable/vue=vue?cd9a"
+/******/ 			"webpack_container_overridable_vue_vue-_1e31": [
+/******/ 				"webpack/container/overridable/vue=vue?1e31"
 /******/ 			]
 /******/ 		};
 /******/ 		var fallbackMapping = {
-/******/ 			"webpack/container/overridable/vue=vue?79d2": () => {
-/******/ 				return __webpack_require__.e("vendors-node_modules__vue_2_6_11_vue_dist_vue_runtime_esm_js").then(() => () => __webpack_require__("./node_modules/_vue@2.6.11@vue/dist/vue.runtime.esm.js"));
-/******/ 			},
-/******/ 			"webpack/container/overridable/vue=vue?cd9a": () => {
+/******/ 			"webpack/container/overridable/vue=vue?1e31": () => {
 /******/ 				return __webpack_require__.e("vendors-node_modules__vue_2_6_11_vue_dist_vue_runtime_esm_js").then(() => () => __webpack_require__("./node_modules/_vue@2.6.11@vue/dist/vue.runtime.esm.js"));
 /******/ 			}
 /******/ 		};
@@ -224,18 +184,8 @@ module.exports = (external) => {
 /******/ 	/* webpack/runtime/remotes loading */
 /******/ 	(() => {
 /******/ 		var installedModules = {};
-/******/ 		var chunkMapping = {
-/******/ 			"webpack_container_remote_zLib_utils": [
-/******/ 				"webpack/container/remote/zLib/utils"
-/******/ 			]
-/******/ 		};
-/******/ 		var idToExternalAndNameMapping = {
-/******/ 			"webpack/container/remote/zLib/utils": [
-/******/ 				"webpack/container/remote-overrides/4d7277",
-/******/ 				"webpack/container/reference/zLib",
-/******/ 				"utils"
-/******/ 			]
-/******/ 		};
+/******/ 		var chunkMapping = {};
+/******/ 		var idToExternalAndNameMapping = {};
 /******/ 		__webpack_require__.f.remotes = (chunkId, promises) => {
 /******/ 			if(__webpack_require__.o(chunkMapping, chunkId)) {
 /******/ 				chunkMapping[chunkId].forEach((id) => {
@@ -274,7 +224,7 @@ module.exports = (external) => {
 /******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 		// Promise = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
-/******/ 			"zComp": 0
+/******/ 			"zCompRemote": 0
 /******/ 		};
 /******/ 		
 /******/ 		
@@ -287,7 +237,7 @@ module.exports = (external) => {
 /******/ 					if(installedChunkData) {
 /******/ 						promises.push(installedChunkData[2]);
 /******/ 					} else {
-/******/ 						if(!/^webpack_container_(overridable_vue_vue\-_cd9a|remote_zLib_utils)$/.test(chunkId)) {
+/******/ 						if("webpack_container_overridable_vue_vue-_1e31" != chunkId) {
 /******/ 							// setup Promise in chunk cache
 /******/ 							var promise = new Promise((resolve, reject) => {
 /******/ 								installedChunkData = installedChunks[chunkId] = [resolve, reject];
@@ -392,7 +342,7 @@ module.exports = (external) => {
 /************************************************************************/
 /******/ 	// module factories are used so entry inlining is disabled
 /******/ 	// startup
-/******/ 	// Load entry module
-/******/ 	__webpack_require__("./src/index.js");
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__("webpack/container/entry/zCompRemote");
 /******/ })()
 ;

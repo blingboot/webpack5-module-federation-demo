@@ -5,7 +5,8 @@
   "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx webpack-dev-server"
+    "dev": "npx webpack-dev-server",
+    "build": "npx webpack"
   },
   "keywords": [],
   "author": "zbl",

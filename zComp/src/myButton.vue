@@ -34,5 +34,9 @@ export default {
 <style lang='less' scoped>
 .my-button {
   color: red;
+  button {
+    font-size: 20px;
+    color: blue;
+  }
 }
 </style>

@@ -1,25 +1,30 @@
 {
-    "name": "zcomp",
-    "version": "1.0.0",
-    "description": "",
-    "main": "webpack.config.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "dev": "npx webpack"
-    },
-    "keywords": [],
-    "author": "zbl",
-    "license": "ISC",
-    "devDependencies": {
-        "css-loader": "^3.5.2",
-        "html-webpack-plugin": "^4.0.0-beta.14",
-        "less": "^3.11.1",
-        "less-loader": "^5.0.0",
-        "style-loader": "^1.1.4",
-        "vue-loader": "15.8.3",
-        "vue-template-compiler": "^2.6.11",
-        "webpack": "git://github.com/webpack/webpack.git#dev-1",
-        "webpack-cli": "^3.3.11",
-        "webpack-dev-server": "^3.10.3"
-    }
+  "name": "zcomp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack",
+    "dev": "npx webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "zbl",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^3.5.2",
+    "html-webpack-plugin": "^4.0.0-beta.14",
+    "less": "^3.11.1",
+    "less-loader": "^5.0.0",
+    "style-loader": "^1.1.4",
+    "vue-loader": "15.8.3",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "git://github.com/webpack/webpack.git#dev-1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "element-ui": "^2.13.1",
+    "vue": "^2.6.11"
+  }
 }
